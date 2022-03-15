@@ -1,0 +1,84 @@
+create table cables(
+	row_id integer not null primary key,
+	cable_id varchar(10) not null,
+	cable_start varchar(14) not null,
+	cable_end varchar(14) not null,
+	cable_mark varchar(14) not null,
+	cable_N_mm2 varchar(14) not null,
+	cable_length integer
+	);
+
+
+
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('1','1КМ-1','ГРЩ. QF1-1','КА-К1','ВВГнг(А)-LS','3x2.5','28');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('2','1КМ-2','ГРЩ. QF1-2','ПЧ К1.1.2','ВВГнг(А)-LS','4x10','25');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('3','1КМ-3','ГРЩ. QF1-3','К1.1.3','ВВГнг(А)-LS','4x2.5','25');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('4','1КМ-4','ГРЩ. QF1-4','КА-К3','ВВГнг(А)-LS','3x2.5','38');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('5','1КМ-5','ГРЩ. QF1-5','К3.1.2','ВВГнг(А)-LS','4x16','38');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('6','1КМ-6','ГРЩ. QF1-6','ПЧ К5.1','ВВГнг(А)-LS','4x16','18');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('7','1КМ-7','ГРЩ. QF1-7','ПЧ К5.2','ВВГнг(А)-LS','4x16','18');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('8','1КМ-8','ГРЩ. QF1-8','ПЧ К5.4','ВВГнг(А)-LS','4x16','18');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('9','1КМ-9','ГРЩ. QF1-9','ПЧ К6.1','ВВГнг(А)-LS','4x2.5','10');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('10','1КМ-10','ГРЩ. QF1-10','ШУЭП ЗК-К1','ВВГнг(А)-LS','5x2.5','27');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('11','1КМ-11','ГРЩ. QF1-11','ПЧ К8.1','ВВГнг(А)-LS','4x2.5','14');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('12','1КМ-12','ГРЩ. QF1-12','К11','ВВГнг(А)-LS','3x2.5','17');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('13','1КМ-13','ГРЩ. QF1-13','ШАК ','ВВГнг(А)-LS','3x2.5','44');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('14','1КМ-14','ГРЩ. QF1-14','ШСАУ-АВО','ВВГнг(А)-LS','5x4','49');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('15','1КМ-15','ГРЩ. QF1-15','Гр.1','ВВГнг(А)-LS','3x2.5','155');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('16','1КМ-16','ГРЩ. QF1-16','Гр.2','ВВГнг(А)-LS','3x2.5','65');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('17','1КМ-17','ГРЩ. QF1-17','Гр.3','ВБбШвнг(А)-LS','3x2.5','115');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('18','1КМ-18','ГРЩ. QF1-18','Гр. РО','ВВГнг(А)-LS','3x2.5','55');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('19','1КМ-19','ГРЩ. QF1-19','Гр. РС','ВВГнг(А)-LS','5x2.5','45');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('20','1КМ-20','ГРЩ. QF1-20','ЩУЗО 1','ВВГнг(А)-LS','3x2.5','15');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('21','1КМ-21','ГРЩ. QF1-21','ППУ 1','ВВГнг(А)-FRLS','3x2.5','15');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('22','1КМ-22','ГРЩ. QF1-22','ШУЭП ЗК-К3','ВВГнг(А)-LS','5x2.5','46');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('23','1КМ-23','ГРЩ. QF1-23','ЩУНО','ВВГнг(А)-LS','3x4','13');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('24','1КМ-25','ГРЩ. QF1-25','ЩУВ','ВВГнг(А)-LS','5x4','10');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('25','1КМ-2.1','ПЧ К1.1.2','К1.1.2','ВВГЭнг(А)-LS','4x10','3');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('26','1КМ-6.1','ПЧ К5.1','К5.1','ВВГЭнг(А)-LS','4x16','10');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('27','1КМ-7.1','ПЧ К5.2','К5.2','ВВГЭнг(А)-LS','4x16','9');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('28','1КМ-8.1','ПЧ К5.4','К5.4','ВВГЭнг(А)-LS','4x16','7');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('29','1КМ-9.1','ПЧ К6.1','К6.1','ВВГЭнг(А)-LS','4x2.5','8');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('30','1КМ-10.1','ШУЭП ЗК-К1','ЗК К1','ВВГнг(А)-LS','4x2.5','5');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('31','1КМ-11.1','ПЧ К8.1','К8.1','ВВГЭнг(А)-LS','4x2.5','6');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('32','1КМ-14.1','ШСАУ-АВО','А1','ВВГнг(А)-LS','5x2.5','22');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('33','1КМ-14.2','ШСАУ-АВО','А2','ВВГнг(А)-LS','5x2.5','28');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('34','1КМ-14.3','ШСАУ-АВО','А3','ВВГнг(А)-LS','5x2.5','34');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('35','1КМ-14.4','ШСАУ-АВО','А4','ВВГнг(А)-LS','5x2.5','40');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('36','1КМ-20.1','ЩУЗО 1','1HL1...1HL3','ВВГнг(А)-LS','3x2.5','78');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('37','1КМ-22.1','ШУЭП ЗК-К3','ЗК К3','ВВГнг(А)-LS','4x2.5','5');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('38','2КМ-1','ГРЩ. QF2-1','КА-К2','ВВГнг(А)-LS','3x2.5','34');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('39','2КМ-2','ГРЩ. QF2-2','ПЧ К2.1.2','ВВГнг(А)-LS','4x50','31');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('40','2КМ-3','ГРЩ. QF2-3','К2.1.3','ВВГнг(А)-LS','4x2.5','31');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('41','2КМ-4','ГРЩ. QF2-4','КА-К4','ВВГнг(А)-LS','3x2.5','44');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('42','2КМ-5','ГРЩ. QF2-5','К4.1.2','ВВГнг(А)-LS','4x16','44');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('43','2КМ-6','ГРЩ. QF2-6','ПЧ К5.3','ВВГнг(А)-LS','4x16','18');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('44','2КМ-7','ГРЩ. QF2-7','ПЧ К5.5','ВВГнг(А)-LS','4x16','18');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('45','2КМ-8','ГРЩ. QF2-8','ПЧ К6.2','ВВГнг(А)-LS','4x2.5','10');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('46','2КМ-9','ГРЩ. QF2-9','ПЧ К6.3','ВВГнг(А)-LS','4x2.5','10');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('47','2КМ-10','ГРЩ. QF2-10','ВВ1…ВВ4','ВВГнг(А)-LS','3x2.5','85');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('48','2КМ-11','ГРЩ. QF2-11','ПЧ К8.2','ВВГнг(А)-LS','4x2.5','14');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('49','2КМ-12','ГРЩ. QF2-12','К12','ВВГнг(А)-LS','3x2.5','19');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('50','2КМ-13','ГРЩ. QF2-13','Конв. 1,2','ВВГнг(А)-LS','3x2.5','10');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('51','2КМ-14','ГРЩ. QF2-14','Гр. АО','ВБбШвнг(А)-LS','4x2.5','195');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('52','2КМ-15','ГРЩ. QF2-15','Гр. НО','ВВГнг(А)-LS','3x2.5','90');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('53','2КМ-16','ГРЩ. QF2-16','ЩУЗО 2','ВВГнг(А)-LS','3x2.5','15');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('54','2КМ-17','ГРЩ. QF2-17','ППУ 2','ВВГнг(А)-FRLS','3x2.5','15');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('55','2КМ-18','ГРЩ. QF2-18','УЗА','ВВГнг(А)-LS','3x2.5','58');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('56','2КМ-19','ГРЩ. QF2-19','ШУЭП-ЗК-К2','ВВГнг(А)-LS','5x2.5','42');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('57','2КМ-20','ГРЩ. QF2-20','ШУЭП-ЗК-К4','ВВГнг(А)-LS','5x2.5','52');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('58','2КМ-2.1','ПЧ К2.1.2','К2.1.2','ВВГЭнг(А)-LS','4x50','10');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('59','2КМ-6.1','ПЧ К5.3','К5.3','ВВГЭнг(А)-LS','4x16','8');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('60','2КМ-7.1','ПЧ К5.5','К5.5','ВВГЭнг(А)-LS','4x16','4');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('61','2КМ-8.1','ПЧ К6.2','К6.2','ВВГЭнг(А)-LS','4x2.5','8');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('62','2КМ-9.1','ПЧ К6.3','К6.3','ВВГЭнг(А)-LS','4x2.5','8');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('63','2КМ-11.1','ПЧ К8.2','К8.2','ВВГЭнг(А)-LS','4x2.5','6');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('64','2КМ-16.1','ЩУЗО 2','2HL1…2HL3','ВВГнг(А)-LS','3x2.5','78');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('65','2КМ-19.1','ШУЭП-ЗК-К2','ЗК-К2','ВВГнг(А)-LS','4x2.5','5');
+insert into cables(row_id,cable_id,cable_start,cable_end,cable_mark,cable_N_mm2,cable_length) values ('66','2КМ-20.1','ШУЭП-ЗК-К4','ЗК-К4','ВВГнг(А)-LS','4x2.5','5');
+
+
+
+select  cable_mark,cable_n_mm2, sum(cable_length) from cables c 
+group by cable_n_mm2, cable_mark
+order by cable_mark, cable_n_mm2 desc
